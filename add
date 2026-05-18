@@ -1,0 +1,22 @@
+# entering values
+x=int(input("enter x : "))
+y=int(input ("enter y :"))
+# choice menu 
+print("select operation")
+print("1. add")
+print("2. sub")
+print("3. mult")
+print("4. div")
+print("5. exit")
+choice=input("enter choice(1/2/3/4/5)")
+# these are the basic arithematic operations in python 
+if choice=="1":
+        print("result",x+y)
+elif choice=="2":
+        print("result",x-y)
+elif choice=="3":
+        print("result",x*y)
+elif choice=="4":
+        print("result",x/y)
+elif choice=="5":
+        print("done ")
